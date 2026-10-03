@@ -4,7 +4,7 @@ SOC-focused network traffic analysis project for detecting C2 communication, rec
 
 | Name | Role |
 |---|---|
-| Omar Eid |  |
-|  Ziad Hatem |  |
-| Adham Khalid |  |
-| Mohamed Dahy| |
+|Omar Eid Abdelrhman Abdelhafez|  |
+| Ziad Hatem Osama Mahmoud|  |
+| Adham Khalid Embaby Ali |  |
+| Mohamed Dahy Taha | |
