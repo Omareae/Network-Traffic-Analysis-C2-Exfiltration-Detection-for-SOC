@@ -66,14 +66,4 @@ The project covers the following technical areas:
 
 ```text
 Network-Traffic-Analysis-C2-Detection/
-│
-├── Documentation/
-├── Wireshark/
-├── Zeek/
-├── Suricata/
-├── Threat-Detection/
-├── MITRE-ATT&CK/
-├── AI-Assisted-Triage/
-├── Indicators-of-Compromise/
-├── Reports/
-└── Screenshots/
+
