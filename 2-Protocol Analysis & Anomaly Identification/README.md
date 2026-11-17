@@ -1,4 +1,4 @@
-# Week 2: Protocol Analysis & Anomaly Identification
+# Protocol Analysis & Anomaly Identification
 
 ## Executive Summary
 Network traffic analysis was conducted on `2026-01-31-traffic-analysis-exercise.pcap` (`51,181` packets) using **Wireshark**, **Zeek**, and **Suricata**. The investigation identified a confirmed **Win32/Lumma Stealer** infection on internal host **`10.1.21.58`** (`DESKTOP-ES9F3ML`), characterized by cleartext HTTP victim fingerprinting, high-frequency TLS C2 beaconing, and `~2.06 MB` of outbound data exfiltration.
