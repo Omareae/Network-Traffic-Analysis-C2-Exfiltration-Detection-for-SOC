@@ -1,0 +1,20 @@
+Type,Indicator,Port_Protocol,Role_Description
+IPv4,153.92.1.49,80/443 TCP,Primary Lumma Stealer C2 & Data Exfiltration Server (whitepepper.su)
+IPv4,62.72.32.156,443 TCP,Lumma Stealer C2 Server (whooptm.cyou)
+IPv4,80.97.160.24,443 TCP,Secondary C2 Server (holiday-forever.cc)
+IPv4,104.21.9.36,443 TCP,Secondary C2 Server (communicationfirewall-security.cc)
+IPv4,172.67.141.109,DNS A,Secondary IP resolved for communicationfirewall-security.cc
+IPv4,104.21.48.156,443 TCP,Payload Staging Server (media.megafilehub4.lat)
+IPv4,172.67.154.67,DNS A,Secondary IP resolved for media.megafilehub4.lat
+IPv4,104.21.46.67,443 TCP,Payload Staging Server (arch.filemegahab4.sbs)
+IPv4,172.67.136.13,DNS A,Secondary IP resolved for arch.filemegahab4.sbs
+Domain,whitepepper.su,80/443 TCP,Primary Lumma Stealer C2 Domain
+Domain,whooptm.cyou,443 TCP,Lumma Stealer C2 Domain
+Domain,communicationfirewall-security.cc,443 TCP,Secondary C2 Domain
+Domain,holiday-forever.cc,443 TCP,Secondary C2 Domain
+Domain,media.megafilehub4.lat,443 TCP,Malicious Staging Domain
+Domain,arch.filemegahab4.sbs,443 TCP,Malicious Staging Domain
+Domain,hiyter.com,DNS/TLS,Suspicious Staging Domain
+URL,http://whitepepper.su/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome,80 TCP,Victim Fingerprinting & Chrome Profiling URI
+URL,http://whitepepper.su/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Edge&act=log,80 TCP,Victim Fingerprinting & Edge Profiling URI
+Compromised_Host,10.1.21.58,Internal,Infected Workstation (DESKTOP-ES9F3ML)
